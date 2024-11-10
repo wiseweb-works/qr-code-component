@@ -5,7 +5,7 @@
   --slate-300: hsl(212, 45%, 89%);
   --slate-500: hsl(216, 15%, 48%);
   --slate-900: hsl(218, 44%, 22%);
-  --main-font: font-family: "Outfit", serif;
+  --main-font: "Outfit", serif;
 }
 
 * {
@@ -17,48 +17,48 @@
 body {
   font-size: 15px;
   font-family: var(--main-font);
-  background-color: var(--slate-300)
+  background-color: var(--slate-300);
 }
 
-main{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;  
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.content{
-    height: 500px;
-    width: 320px;
-    text-align: center;
-    border-radius: 20px;
-    background-color: var(--white);
+.content {
+  height: 500px;
+  width: 320px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: var(--white);
 }
 
-.content img{
-    width: 288px;
-    height: 288px;
-    margin: 16px;
-    border-radius: 10px;
+.content img {
+  width: 288px;
+  height: 288px;
+  margin: 16px;
+  border-radius: 10px;
 }
 
-.texts{
-    margin: 8px 16px 40px;
-    padding: 0px 16px;
+.texts {
+  margin: 8px 16px 40px;
+  padding: 0px 16px;
 }
 
-.first{
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 120%;
-    margin-bottom: 16px;
-    color: #1F314F;
+.first {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 16px;
+  color: #1f314f;
 }
 
-.second{
-    line-height: 140%;
-    letter-spacing: 0.2px;
-    color: #68778D;
+.second {
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  color: #68778d;
 }
 
 .attribution {
